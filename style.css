@@ -1,0 +1,140 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+}
+.container {
+	width: 1060px;
+	background: white;
+	margin: 0 auto;
+	width: 1060px;
+	box-shadow: 0 0 5px grey;
+	padding: 57px 45px;
+}
+
+.img {
+	margin-left: 37px;
+	margin-bottom: 33px;
+}
+.top-menu ul {
+	margin-left:0;
+	list-style-type:none;
+	width:100%;
+	background: linear-gradient(to top, #5c5c5c, #454444);
+}
+
+.top-menu li {
+	display:inline-block;
+	
+}
+.top-menu li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 13px 23px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.top-menu li a:hover {
+	background-color: #383838;
+	border-left-color: #838383;
+	border-right-color: #838383;
+}
+.top-menu li.active a {
+	background-color: #383838;
+	border-left-color: #838383;
+	border-right-color: #838383;
+}
+
+.top-menu ul li:first-child a {
+	border-left-color: transparent;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.content {
+	margin-top: 40px;
+}
+.side-menu {
+	float: left;
+	width: 240px;
+}
+.side-menu ul {
+	list-style: none;
+	border: 1px solid #c8c8c8;
+}
+.side-menu ul li {
+	border-bottom: 1px solid #c8c8c8;
+}
+.side-menu ul li:last-child {
+	border-bottom: none;
+}
+.side-menu li a {
+	text-decoration: none;
+	display: block;
+	padding-top: 17px;
+	padding-left: 23px;
+	padding-bottom: 13px;
+	color: #656363;
+}
+.side-menu li a:hover {
+	background: #f9f9f9;
+	padding-left: 34px;
+	color: #2c2c2c;
+}
+.side-menu li.active a {
+	background: #f9f9f9;
+	padding-left: 34px;
+	color: #2c2c2c;
+}
+.content-body {
+	float: right;
+	width: 680px;
+}
+.content-img {
+	padding: 43px 90px;
+	border: 1px solid #c8c8c8;
+}
+.content-text {
+	padding: 43px;
+    font-size: 14px;
+}
+.bottom-menu ul {
+	margin-left:0;
+	list-style-type:none;
+	width:100%;
+	background: #e1e1e1;
+}
+.bottom-menu li {
+	display:inline-block;
+}
+.bottom-menu li a {
+	color: #2c2c2c;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 23px;
+	
+}
+.bottom-menu li a:hover {
+	text-decoration: underline;
+}
+.bottom-menu li.active a {
+	text-decoration: underline;
+}
+.copyright {
+	font-size: 12px;
+    font-weight: 400;
+    float: right;
+    margin-top: -30px;
+    margin-right: 59px;
+}
